@@ -12,6 +12,7 @@ Difficulty: Hard
 Tests to pass: 67/67
 Result: Runtime beats 95.5% of javascript submissions.
 */
+
 var longestConsecutive = function(nums) {
     nums = nums.sort(function(a,b) {
         return a-b;
